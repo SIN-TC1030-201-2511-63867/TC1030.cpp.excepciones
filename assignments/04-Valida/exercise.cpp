@@ -13,7 +13,7 @@ int main()
       std::cin >> num;
 
       if (num < 1 || num > 5) {
-        std::string mensaje=std::to_string(num) + " es un dato inválid0";
+        std::string mensaje=std::to_string(num) + " es un dato inválido";
 
         throw std::invalid_argument(mensaje);
       }
